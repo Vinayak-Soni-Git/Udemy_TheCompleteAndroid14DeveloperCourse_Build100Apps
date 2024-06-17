@@ -49,16 +49,16 @@
             android:name=".IntegratingAdmob.MainAdMobAppActivity"
             android:exported="false" />
         <activity
-            android:name=".AdvancedRecyclerView.RecyclerViewWithMultipleItemSelection.RecyclerViewWithMultipleItemSelectionActivity"
+            android:name=".AdvancedRecyclerView.RecyclerViewWithMultipleItemSelection.RVWithMultipleItemSelection"
             android:exported="false" />
         <activity
-            android:name=".AdvancedRecyclerView.RecyclerViewWithSwipeItem.RecyclerViewWithSwipeItemActivity"
+            android:name=".AdvancedRecyclerView.RecyclerViewWithSwipeItem.RVWithSwipeItem"
             android:exported="false" />
         <activity
-            android:name=".AdvancedRecyclerView.RecyclerViewWithMultipleViewTypes.RecyclerViewWithMultipleViewTypesActivity"
+            android:name=".AdvancedRecyclerView.RecyclerViewWithMultipleViewTypes.RVWithMultipleViewTypes"
             android:exported="false" />
         <activity
-            android:name=".AdvancedRecyclerView.RecyclerViewWithSingleItemSelection.RecyclerViewWithSingleItemSelectionActivity"
+            android:name=".AdvancedRecyclerView.RecyclerViewWithSingleItemSelection.RVWithSingleItemSelection"
             android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.

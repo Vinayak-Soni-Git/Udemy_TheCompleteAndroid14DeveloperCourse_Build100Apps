@@ -7,9 +7,9 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleItemSelection.RecyclerViewWithMultipleItemSelectionActivity;
-import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleViewTypes.RecyclerViewWithMultipleViewTypesActivity;
-import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithSingleItemSelection.RecyclerViewWithSingleItemSelectionActivity;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleItemSelection.RVWithMultipleItemSelection;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleViewTypes.RVWithMultipleViewTypes;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithSingleItemSelection.RVWithSingleItemSelection;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.DependencyInjectionApp.QuestionsListActivity;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.FirebaseCloudMessagingApp.MainCloudMessagingAppActivity;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.IntegratingAdmob.MainAdMobAppActivity;
@@ -32,7 +32,7 @@ public class MainActivity3 extends AppCompatActivity {
             }
         });
         
-        Intent singleItemSelectionRVAppIntent = new Intent(this, RecyclerViewWithSingleItemSelectionActivity.class);
+        Intent singleItemSelectionRVAppIntent = new Intent(this, RVWithSingleItemSelection.class);
         Button openSingleItemSelectionRVAppButton = findViewById(R.id.openRVWithSingleItemSelectionButton);
         openSingleItemSelectionRVAppButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,7 +41,7 @@ public class MainActivity3 extends AppCompatActivity {
             }
         });
         
-        Intent recyclerViewWithMultipleViewTypeAppIntent = new Intent(this, RecyclerViewWithMultipleViewTypesActivity.class);
+        Intent recyclerViewWithMultipleViewTypeAppIntent = new Intent(this, RVWithMultipleViewTypes.class);
         Button openRecyclerViewWithMultipleViewAppButton = findViewById(R.id.openRVWithMultipleViewTypesAppButton);
         openRecyclerViewWithMultipleViewAppButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,7 +50,7 @@ public class MainActivity3 extends AppCompatActivity {
             }
         });
         
-        Intent recyclerViewWithMultipleSelectionAppIntent = new Intent(this, RecyclerViewWithMultipleItemSelectionActivity.class);
+        Intent recyclerViewWithMultipleSelectionAppIntent = new Intent(this, RVWithMultipleItemSelection.class);
         Button openRecyclerViewWithMultipleSectionAppButton = findViewById(R.id.openRVWithMultipleSelectionAppButton);
         openRecyclerViewWithMultipleSectionAppButton.setOnClickListener(new View.OnClickListener() {
             @Override
