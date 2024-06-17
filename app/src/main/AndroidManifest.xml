@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.level.full" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TheCompleteAndroid14DeveloperCourse_Build100Apps"
+        tools:targetApi="31">
+        <activity
+            android:name=".KotlinNoteTakingApp.MainNoteTakingAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinCurrencyConverterApp.CurrencyConverterAppKotlinActivity"
+            android:exported="false" />
+
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/ga_ad_services_config"
+            tools:replace="android:resource" />
+
+        <activity
+            android:name=".DependencyInjectionApp.QuestionDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DependencyInjectionApp.QuestionsListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DependencyInjectionApp.MainDependencyInjectionAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntegratingAdmob.MainRewardedAdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntegratingAdmob.MainInterstitialAdAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntegratingAdmob.MainAdMobAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdvancedRecyclerView.RecyclerViewWithMultipleItemSelection.RecyclerViewWithMultipleItemSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdvancedRecyclerView.RecyclerViewWithSwipeItem.RecyclerViewWithSwipeItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdvancedRecyclerView.RecyclerViewWithMultipleViewTypes.RecyclerViewWithMultipleViewTypesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdvancedRecyclerView.RecyclerViewWithSingleItemSelection.RecyclerViewWithSingleItemSelectionActivity"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <activity
+            android:name=".GoogleMaps.MainMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main_maps" />
+        <activity
+            android:name=".FirebaseCloudMessagingApp.MainCloudMessagingAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MLKitFaceDetectionApp.MainFaceDetectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MLKitQRCodeScannerApp.MainQRCodeScannerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MLKitOCRApp.MainOCRAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MLKitLanguageTranslatorApp.MainLanguageTranslatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MLKitImageToTextApp.ScannerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MLKitImageToTextApp.MainImageToTextAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WhatsappCloneAppUsingFirebaseAndMVVM.Activities.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WhatsappCloneAppUsingFirebaseAndMVVM.Activities.WhatsAppLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WhatsappCloneAppUsingFirebaseAndMVVM.Activities.GroupsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinCoroutines.MainCoroutinesAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinCoroutines.MainFirstCoroutineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseFirestoreDatabase.MainFirestoreDatabaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhoneBookApp.MainPhoneBookAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseRealTimeDatabase.MainRealTimeDatabaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidJetpackNavigationFramework.MainNavigationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidJetpackWorkManager.MainWorkManagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TheQuizAppMVVMAndMySQLAndRetrofit.QuizResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TheQuizAppMVVMAndMySQLAndRetrofit.MainQuizAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Layouts.SaveLayouts.SaveLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuadraticEquationsSolverApp.MainEquationsSolverApp"
+            android:exported="false" />
+        <activity
+            android:name=".MVVMAndPagingLibrary.MainPagingApp"
+            android:exported="false" />
+        <activity
+            android:name=".TheJournalApp.AddJournalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TheJournalApp.JournalListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TheJournalApp.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TheJournalApp.TheJournalApp"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MVVMAndRetrofit.MovieApp"
+            android:exported="false" />
+        <activity
+            android:name=".AddNewContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MVVMAndRoomDB.ContactsManagerApp"
+            android:exported="false" />
+        <activity
+            android:name=".LiveDataViewModelDataBinding.ViewModelApp"
+            android:exported="false" />
+        <activity
+            android:name=".DataBindingInAndroid.DataBindingApp"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentsInAndroid.ViewPagerApp"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentsInAndroid.FragmentApplicationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidComponents.MusicPlayerApp"
+            android:exported="false" />
+        <activity
+            android:name=".CardViewTheSportsApp.SportsApp"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerViewTheGroceryApp.GroceryApp"
+            android:exported="false" />
+        <activity
+            android:name=".MasteringAdapterAndGridView.SphereActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MasteringAdapterAndGridView.VolumeAreaApp"
+            android:exported="false" />
+        <activity
+            android:name=".AdaptersInAndroid.CustomAdapterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdaptersInAndroid.AdapterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FrenchTeacherApp.MainFrenchTeacherAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MoreWidgets.MoreWidgets"
+            android:exported="false" />
+        <activity
+            android:name=".LuckyNumberApp.NumberResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LuckyNumberApp.MainLuckyNumberAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppComponents.ImplicitIntent"
+            android:exported="false" />
+        <activity
+            android:name=".AppComponents.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppComponents.ExplicitIntent"
+            android:exported="false" />
+        <activity
+            android:name=".AppComponents.AppLifeCycleApp"
+            android:exported="false" />
+        <activity
+            android:name=".Layouts.ConstraintLayout"
+            android:exported="false" />
+        <activity
+            android:name=".Layouts.RelativeLayout"
+            android:exported="false" />
+        <activity
+            android:name=".Layouts.LinearLayout"
+            android:exported="false" />
+        <activity
+            android:name=".ViewsAndWidgets.UnitConverterApp"
+            android:exported="false" />
+        <activity
+            android:name=".ViewsAndWidgets.TheCounterApp"
+            android:exported="false" />
+        <activity
+            android:name=".ViewsAndWidgets.TheGreetingApp"
+            android:exported="false" />
+        <activity
+            android:name=".ViewsAndWidgets.ViewsAndWidgetsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".AndroidComponents.CustomService" />
+
+        <receiver
+            android:name=".AndroidComponents.AirplaneModeReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".FirebaseCloudMessagingApp.CustomFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/baseline_notifications_24" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/black" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6244432265309330~9126839846" />
+    </application>
+
+</manifest>

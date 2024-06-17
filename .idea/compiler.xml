@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="TheCompleteAndroid14DeveloperCourse_Build100Apps.app" target="17" />
+      <module name="Udemy_TheCompleteAndroid14DeveloperCourse_Build100Apps.lib.Kotlin" target="17" />
+      <module name="Udemy_TheCompleteAndroid14DeveloperCourse_Build100Apps.lib.Kotlin.main" target="17" />
+      <module name="Udemy_TheCompleteAndroid14DeveloperCourse_Build100Apps.lib.Kotlin.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
