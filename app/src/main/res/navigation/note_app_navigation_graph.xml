@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/note_app_navigation_graph"
+    app:startDestination="@id/notesHomeFragment">
+    <fragment
+        android:id="@+id/notesHomeFragment"
+        android:name="com.example.udemy_thecompleteandroid14developercourse_build100apps.KotlinNoteTakingApp.NotesHomeFragment"
+        android:label="fragment_notes_home"
+        tools:layout="@layout/fragment_notes_home" />
+    <fragment
+        android:id="@+id/newNoteFragment"
+        android:name="com.example.udemy_thecompleteandroid14developercourse_build100apps.KotlinNoteTakingApp.NewNoteFragment"
+        android:label="fragment_new_note"
+        tools:layout="@layout/fragment_new_note" />
+    <fragment
+        android:id="@+id/updateNoteFragment"
+        android:name="com.example.udemy_thecompleteandroid14developercourse_build100apps.KotlinNoteTakingApp.UpdateNoteFragment"
+        android:label="fragment_update_note"
+        tools:layout="@layout/fragment_update_note" />
+</navigation>

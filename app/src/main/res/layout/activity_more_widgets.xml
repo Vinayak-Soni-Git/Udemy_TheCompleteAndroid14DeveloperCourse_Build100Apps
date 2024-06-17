@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreWidgets.MoreWidgets">
+
+<!--    CheckBox-->
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="231dp"
+        android:layout_height="51dp"
+        android:text="@string/pizza"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="206dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="68dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RadioButton
+            android:id="@+id/radioTomato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tomato"
+            android:textSize="20sp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioCheese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cheese"
+            android:textSize="20sp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioPineapple"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="@string/pineapple"
+            android:textSize="20sp">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="407dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="236dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="357dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="372dp"
+        android:progressTint="#40E81B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="168dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="432dp"
+        android:text="@string/clickMe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <TimePicker-->
+<!--        android:id="@+id/timePicker"-->
+<!--        android:layout_width="406dp"-->
+<!--        android:layout_height="215dp"-->
+<!--        android:layout_marginTop="308dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.6"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--    </TimePicker>-->
+
+<!--    <DatePicker-->
+<!--        android:id="@+id/datePicker"-->
+<!--        android:layout_width="378dp"-->
+<!--        android:layout_height="162dp"-->
+<!--        android:layout_marginTop="544dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.173"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

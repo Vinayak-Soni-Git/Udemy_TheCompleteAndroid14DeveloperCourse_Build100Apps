@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "252995858375",
+    "project_id": "udemytheandroid14course",
+    "storage_bucket": "udemytheandroid14course.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252995858375:android:8d49efcd2ea8ad913bf3e2",
+        "android_client_info": {
+          "package_name": "com.example.udemy_thecompleteandroid14developercourse_build100apps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxL_6RonGmcUVtshyZPJ7UUpfY8zcrBGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
