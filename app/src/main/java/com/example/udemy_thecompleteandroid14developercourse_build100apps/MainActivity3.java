@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleItemSelection.RVWithMultipleItemSelection;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleItemSelection.RVWithMISelection;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleViewTypes.RVWithMultipleViewTypes;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithSingleItemSelection.RVWithSingleItemSelection;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.DependencyInjectionApp.QuestionsListActivity;
@@ -15,6 +15,7 @@ import com.example.udemy_thecompleteandroid14developercourse_build100apps.Fireba
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.IntegratingAdmob.MainAdMobAppActivity;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.IntegratingAdmob.MainInterstitialAdAppActivity;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.IntegratingAdmob.MainRewardedAdActivity;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.KotlinNoteTakingApp.MainNoteTakingAppActivity;
 
 public class MainActivity3 extends AppCompatActivity {
 
@@ -50,7 +51,7 @@ public class MainActivity3 extends AppCompatActivity {
             }
         });
         
-        Intent recyclerViewWithMultipleSelectionAppIntent = new Intent(this, RVWithMultipleItemSelection.class);
+        Intent recyclerViewWithMultipleSelectionAppIntent = new Intent(this, RVWithMISelection.class);
         Button openRecyclerViewWithMultipleSectionAppButton = findViewById(R.id.openRVWithMultipleSelectionAppButton);
         openRecyclerViewWithMultipleSectionAppButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -92,6 +93,15 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(dependencyInjectionAppIntent);
+            }
+        });
+        
+        Intent noteTakingAppIntent = new Intent(this, MainNoteTakingAppActivity.class);
+        Button openNoteTakingAppButton = findViewById(R.id.openNoteTakingAppButton);
+        openNoteTakingAppButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(noteTakingAppIntent);
             }
         });
     }

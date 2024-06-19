@@ -5,7 +5,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
     id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
-    id("androidx.navigation.safeargs")
+    id("androidx.navigation.safeargs.kotlin")
     id("kotlin-parcelize")
 }
 
@@ -54,10 +54,13 @@ dependencies {
 
     // Room
     implementation("androidx.room:room-runtime:2.6.1")
+    kapt("androidx.room:room-compiler:2.6.1")
+    implementation("androidx.room:room-ktx:2.6.1")
+    annotationProcessor("androidx.room:room-compiler:2.6.1")
+    
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.activity:activity:1.9.0")
     implementation("com.google.android.gms:play-services-maps:18.2.0")
-    annotationProcessor("androidx.room:room-compiler:2.6.1")
     
     // Activity
     implementation("androidx.activity:activity-ktx:1.9.0")
@@ -102,11 +105,7 @@ dependencies {
     // (Java only)
     implementation("androidx.work:work-runtime:2.9.0")
 
-    // Java language implementation
-    implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
-    implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
-
-    // Kotlin
+    // Navigation
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
 
