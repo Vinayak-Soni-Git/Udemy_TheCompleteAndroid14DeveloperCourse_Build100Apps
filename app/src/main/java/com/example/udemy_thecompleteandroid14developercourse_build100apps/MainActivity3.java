@@ -10,11 +10,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleItemSelection.RVWithMISelection;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleViewTypes.RVWithMultipleViewTypes;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithSingleItemSelection.RVWithSingleItemSelection;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.AnimationAndMaterialDesign.FashionApp.FashionApp;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.AnimationAndMaterialDesign.FoodApp.FoodAppUI;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.AnimationAndMaterialDesign.FurnitureApp.FurnitureApp;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.DependencyInjectionApp.QuestionsListActivity;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.FirebaseCloudMessagingApp.MainCloudMessagingAppActivity;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.IntegratingAdmob.MainAdMobAppActivity;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.IntegratingAdmob.MainInterstitialAdAppActivity;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.IntegratingAdmob.MainRewardedAdActivity;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.KotlinGroceryApp.KotlinGroceryApp;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.KotlinLotteryApp.KotlinLotteryApp;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.KotlinNoteTakingApp.MainNoteTakingAppActivity;
 
 public class MainActivity3 extends AppCompatActivity {
@@ -102,6 +107,51 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(noteTakingAppIntent);
+            }
+        });
+        
+        Intent lotteryAppIntent = new Intent(this, KotlinLotteryApp.class);
+        Button openLotteryAppButton = findViewById(R.id.openLotteryAppButton);
+        openLotteryAppButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(lotteryAppIntent);
+            }
+        });
+        
+        Intent kotlinGroceryAppIntent = new Intent(this, KotlinGroceryApp.class);
+        Button openKotlinGroceryAppButton = findViewById(R.id.openGroceryAppButton);
+        openKotlinGroceryAppButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(kotlinGroceryAppIntent);
+            }
+        });
+        
+        Intent foodAppUIIntent = new Intent(this, FoodAppUI.class);
+        Button openFoodAppUIBUtton = findViewById(R.id.openFoodAppUIButton);
+        openFoodAppUIBUtton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(foodAppUIIntent);
+            }
+        });
+        
+        Intent furnitureAppIntent = new Intent(this, FurnitureApp.class);
+        Button openFurnitureAppButton = findViewById(R.id.openFurnitureAppButton);
+        openFurnitureAppButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(furnitureAppIntent);
+            }
+        });
+        
+        Intent fashionAppIntent = new Intent(this, FashionApp.class);
+        Button openFashionAppButton = findViewById(R.id.openFashionAppButton);
+        openFashionAppButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(fashionAppIntent);
             }
         });
     }

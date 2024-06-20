@@ -164,4 +164,13 @@
     <string name="todo">TODO</string>
     <string name="search">Search</string>
     <string name="save">Save</string>
+    <string name="generate_lottery_number">Generate Lottery Number</string>
+    <string name="share_your_lottery_number">Share Your Lottery Number</string>
+    <string name="note_taking_app">Note Taking App</string>
+    <string name="lottery_app">Lottery App</string>
+    <string name="food_app_ui">Food App UI</string>
+    <string name="local_events">Local Events</string>
+    <string name="new_arrival">New Arrival</string>
+    <string name="furniture_app">Furniture App</string>
+    <string name="fashion_app">Fashion App</string>
 </resources>
