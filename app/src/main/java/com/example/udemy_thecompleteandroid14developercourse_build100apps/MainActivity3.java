@@ -7,9 +7,9 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleItemSelection.RVWithMISelection;
-import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleViewTypes.RVWithMultipleViewTypes;
-import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithSingleItemSelection.RVWithSingleItemSelection;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleItemSelection.RVWithMIS;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleViewTypes.RVWithMVTypes;
+import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithSingleItemSelection.RVWithSS;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.AnimationAndMaterialDesign.FoodApp.FoodAppUI;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.AnimationAndMaterialDesign.FurnitureApp.FurnitureApp;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.DependencyInjectionApp.QuestionsListActivity;
@@ -37,7 +37,7 @@ public class MainActivity3 extends AppCompatActivity {
             }
         });
         
-        Intent singleItemSelectionRVAppIntent = new Intent(this, RVWithSingleItemSelection.class);
+        Intent singleItemSelectionRVAppIntent = new Intent(this, RVWithSS.class);
         Button openSingleItemSelectionRVAppButton = findViewById(R.id.openRVWithSingleItemSelectionButton);
         openSingleItemSelectionRVAppButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,7 +46,7 @@ public class MainActivity3 extends AppCompatActivity {
             }
         });
         
-        Intent recyclerViewWithMultipleViewTypeAppIntent = new Intent(this, RVWithMultipleViewTypes.class);
+        Intent recyclerViewWithMultipleViewTypeAppIntent = new Intent(this, RVWithMVTypes.class);
         Button openRecyclerViewWithMultipleViewAppButton = findViewById(R.id.openRVWithMultipleViewTypesAppButton);
         openRecyclerViewWithMultipleViewAppButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,7 +55,7 @@ public class MainActivity3 extends AppCompatActivity {
             }
         });
         
-        Intent recyclerViewWithMultipleSelectionAppIntent = new Intent(this, RVWithMISelection.class);
+        Intent recyclerViewWithMultipleSelectionAppIntent = new Intent(this, RVWithMIS.class);
         Button openRecyclerViewWithMultipleSectionAppButton = findViewById(R.id.openRVWithMultipleSelectionAppButton);
         openRecyclerViewWithMultipleSectionAppButton.setOnClickListener(new View.OnClickListener() {
             @Override
