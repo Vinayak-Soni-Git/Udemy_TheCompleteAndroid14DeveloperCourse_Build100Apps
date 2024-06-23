@@ -22,6 +22,66 @@
         android:theme="@style/Theme.TheCompleteAndroid14DeveloperCourse_Build100Apps"
         tools:targetApi="31">
         <activity
+            android:name=".dagger2.withmvvmarchitecture.AddEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dagger2.withmvvmarchitecture.MainDaggerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dagger2.contactmanagerappusingdi.DaggerAddNewContact"
+            android:exported="false" />
+        <activity
+            android:name=".dagger2.contactmanagerappusingdi.DaggerContactManager"
+            android:exported="false" />
+        <activity
+            android:name=".dagger2.MobileApp.PureDIApp"
+            android:exported="false" />
+        <activity
+            android:name=".ArchitecturePatterns.MVVMPattern.MVVMPatternActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArchitecturePatterns.MVPPattern.MVPPatternActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArchitecturePatterns.MVCPattern.MVCPatternActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinNavigationDrawerApp.KotlinNavigationDrawer"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinSportsApp.KotlinSportsApp"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinNavigationApp.KotlinNavigationApp"
+            android:exported="false" />
+        <activity
+            android:name=".kotlincontactmanagerapp.KotlinContactManagerApp"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinVolumeCalculatorApp.KotlinSphereActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinVolumeCalculatorApp.KotlinVolumeCalculatorApp"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinJournalApp.AddJournalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinJournalApp.KotlinJournalsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinJournalApp.KotlinSignUp"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinJournalApp.KotlinJournalApp"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinPlanetApp.KotlinPlanetApp"
+            android:exported="false" />
+        <activity
             android:name=".AnimationAndMaterialDesign.FashionApp.FashionApp"
             android:exported="false" />
         <activity
@@ -61,7 +121,7 @@
             tools:replace="android:resource" />
 
         <activity
-            android:name=".DependencyInjectionApp.QuestionDetailsActivity"
+            android:name=".DependencyInjectionApp.questiondetails.QuestionDetailsActivity"
             android:exported="false" />
         <activity
             android:name=".DependencyInjectionApp.QuestionsListActivity"

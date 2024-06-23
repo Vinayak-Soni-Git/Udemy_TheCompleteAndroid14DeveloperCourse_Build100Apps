@@ -173,4 +173,26 @@
     <string name="new_arrival">New Arrival</string>
     <string name="furniture_app">Furniture App</string>
     <string name="fashion_app">Fashion App</string>
+    <string name="main_activity_4">Main Activity 4</string>
+    <string name="kotlin_planet_app">Kotlin Planet App</string>
+    <string name="create_account">Create Account</string>
+    <string name="volume_calculator_app">Volume Calculator App</string>
+    <string name="enter_radius">Enter radius</string>
+    <string name="contact_manager_app_kotlin">Contact Manager App Kotlin</string>
+    <string name="kotlin_navigation_app">Kotlin Navigation App</string>
+    <string name="kotlin_sports_app">Kotlin Sports App</string>
+    <string name="navigation_header">Navigation Header</string>
+    <string name="home_page">Home page</string>
+    <string name="message_page">Message Page</string>
+    <string name="settings_page">Settings Page</string>
+    <string name="profile">profile</string>
+    <string name="login_page">Login Page</string>
+    <string name="oneNavigationDrawer">Open Navigation Drawer</string>
+    <string name="closeNavigationDrawer">Close Navigation Drawer</string>
+    <string name="kotlin_navigation_drawer">Kotlin Navigation Drawer</string>
+    <string name="display_app_in_text">Display App In Text</string>
+    <string name="mvc_pattern_app">MVC Pattern App</string>
+    <string name="mvp_pattern_app">MVP Pattern App</string>
+    <string name="mvvm_pattern_app">MVVM Pattern App</string>
+    <string name="button">Button</string>
 </resources>

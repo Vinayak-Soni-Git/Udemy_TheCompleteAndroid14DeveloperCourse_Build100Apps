@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleItemSelection.RVWithMISelection;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithMultipleViewTypes.RVWithMultipleViewTypes;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.AdvancedRecyclerView.RecyclerViewWithSingleItemSelection.RVWithSingleItemSelection;
-import com.example.udemy_thecompleteandroid14developercourse_build100apps.AnimationAndMaterialDesign.FashionApp.FashionApp;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.AnimationAndMaterialDesign.FoodApp.FoodAppUI;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.AnimationAndMaterialDesign.FurnitureApp.FurnitureApp;
 import com.example.udemy_thecompleteandroid14developercourse_build100apps.DependencyInjectionApp.QuestionsListActivity;
@@ -145,14 +144,15 @@ public class MainActivity3 extends AppCompatActivity {
                 startActivity(furnitureAppIntent);
             }
         });
-        
-        Intent fashionAppIntent = new Intent(this, FashionApp.class);
-        Button openFashionAppButton = findViewById(R.id.openFashionAppButton);
-        openFashionAppButton.setOnClickListener(new View.OnClickListener() {
+
+        Intent mainActivity4Intent = new Intent(this, MainActivity4.class);
+        Button openMainActivity4Button = findViewById(R.id.openMainActivity4Button);
+        openMainActivity4Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(fashionAppIntent);
+                startActivity(mainActivity4Intent);
             }
         });
+        
     }
 }
