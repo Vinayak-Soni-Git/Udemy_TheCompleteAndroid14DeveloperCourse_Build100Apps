@@ -22,6 +22,15 @@
         android:theme="@style/Theme.TheCompleteAndroid14DeveloperCourse_Build100Apps"
         tools:targetApi="31">
         <activity
+            android:name=".KotlinMastringRoomDatabase.MainMasteringRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TopCompaniesApp.MainTopCompaniesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinDeepDiveIntoCoroutines.KotlinCoroutinesActivity"
+            android:exported="false" />
+        <activity
             android:name=".dagger2.withmvvmarchitecture.AddEditActivity"
             android:exported="false" />
         <activity

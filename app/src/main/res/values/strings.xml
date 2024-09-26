@@ -195,4 +195,7 @@
     <string name="mvp_pattern_app">MVP Pattern App</string>
     <string name="mvvm_pattern_app">MVVM Pattern App</string>
     <string name="button">Button</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_price">Item Price</string>
+    <string name="item_quantity">Item Quantity</string>
 </resources>
