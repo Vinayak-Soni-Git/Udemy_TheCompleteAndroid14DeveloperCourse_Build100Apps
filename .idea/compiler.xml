@@ -3,6 +3,10 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
       <module name="TheCompleteAndroid14DeveloperCourse_Build100Apps.app" target="17" />
+      <module name="Udemy_TheCompleteAndroid14DeveloperCourse_Build100Apps.app" target="21" />
+      <module name="Udemy_TheCompleteAndroid14DeveloperCourse_Build100Apps.app.lib.Kotlin" target="17" />
+      <module name="Udemy_TheCompleteAndroid14DeveloperCourse_Build100Apps.app.lib.Kotlin.main" target="17" />
+      <module name="Udemy_TheCompleteAndroid14DeveloperCourse_Build100Apps.app.lib.Kotlin.test" target="17" />
       <module name="Udemy_TheCompleteAndroid14DeveloperCourse_Build100Apps.lib.Kotlin" target="17" />
       <module name="Udemy_TheCompleteAndroid14DeveloperCourse_Build100Apps.lib.Kotlin.main" target="17" />
       <module name="Udemy_TheCompleteAndroid14DeveloperCourse_Build100Apps.lib.Kotlin.test" target="17" />
